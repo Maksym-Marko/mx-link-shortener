@@ -26,13 +26,21 @@ if( document.getElementById( 'mxLinkShortener' ) ) {
 						/>
 					</div>
 
-					<div>
-						<input 
-							v-model="mxlinkshorteneremailagreement"
-							type="checkbox"
-							id="mxLinkShortenerEmailAgreement" 
-						/>
-						<label for="mxLinkShortenerEmailAgreement">I agree that my e-mail address will be stored in this service and will not be shared with third-party services.</label>
+					<div class="mx_agreement_wrapper">
+
+						<div>
+							<input 
+								v-model="mxlinkshorteneremailagreement"
+								type="checkbox"
+								id="mxLinkShortenerEmailAgreement" 
+							/>
+						</div>
+						<div>
+
+							<label for="mxLinkShortenerEmailAgreement">I agree that my e-mail address will be stored in this service and will not be shared with third-party services.</label>
+
+						</div>
+						
 					</div>
 
 					<div
@@ -228,7 +236,9 @@ if( document.getElementById( 'mxLinkShortenerUpdate' ) ) {
 
 					if( response === '1' ) {
 
-						window.location.href = _this.long_link
+						let long_link = _this.long_link.replace( /&#038;/g, '&' )
+
+						window.location.href = long_link
 
 					} else {
 

@@ -4,7 +4,7 @@ Plugin Name: Mx Link Shortener
 Plugin URI: https://github.com/Maxim-us/wp-plugin-skeleton
 Description: This plugin shortens links and allows you to store them on your website.
 Author: Marko Maksym
-Version: 1.0
+Version: 1.0.3
 Author URI: https://markomaksym.com.ua/
 */
 
@@ -74,7 +74,7 @@ if ( ! defined( 'MXMLS_PLUGIN_ABS_PATH' ) ) {
 if ( ! defined( 'MXMLS_PLUGIN_VERSION' ) ) {
 
 	// version
-	define( 'MXMLS_PLUGIN_VERSION', '1.0' ); // Must be replaced before production on for example '1.0'
+	define( 'MXMLS_PLUGIN_VERSION', '1.0.3' ); // Must be replaced before production on for example '1.0'
 
 }
 

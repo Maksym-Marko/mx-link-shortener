@@ -3,7 +3,7 @@ Contributors: markomaksym
 Tags: Link shortener, cut link, short link
 Requires at least: 4.9
 Tested up to: 6.0
-Stable tag: 1.0
+Stable tag: 1.0.3
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 	WP Plugin Skeleton Generator Version: 			4.0
@@ -40,6 +40,12 @@ This plugin shortens links and allows you to store them on your website. You can
 2. List of Shortened links
 
 == Changelog ==
+
+= 1.0.3 =
+* Redirect issue fixed
+
+= 1.0.1 =
+* CSS issue fixed
 
 = 1.0 =
 * Mx Link Shortener

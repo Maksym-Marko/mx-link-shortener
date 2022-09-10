@@ -86,6 +86,8 @@ class MXMLS_Add_Shortcodes
 
 					</script>
 
+					<?php echo esc_url( $result->long_link );?>
+
 					<div id="mxLinkShortenerUpdate">
 						<mx_link_shortener_notification
 							:error="error"
